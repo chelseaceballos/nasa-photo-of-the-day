@@ -2,7 +2,7 @@ import React from 'react'
 
 function home () {
     return (
-        <h1>Astronomy Picture of the Day!</h1>
+        <h1> 🔭 NASA'S Astronomy Picture of the Day! 🔭 </h1>
     );
 }
 export default home 

@@ -27,3 +27,14 @@ const NasaPhotos = props => {
     );
 }
 export default NasaPhotos
+
+// import react from 'react'
+
+// pass in props 
+    //const NasaPhotos = props => { 
+    //     const {data} = props;
+    // }
+
+// return with data being rendered 
+
+// export default NasaPhotos
