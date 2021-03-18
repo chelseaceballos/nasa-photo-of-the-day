@@ -27,7 +27,7 @@ function App() {
   return (
   <div className='App'>
     {Home()}
-    {NasaPhotos ({'data':data}) }
+    {NasaPhotos ({'data':data})}
   </div>
   );
 }
