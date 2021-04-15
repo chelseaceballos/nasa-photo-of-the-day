@@ -5,9 +5,13 @@ import "./App.css";
 import axios from 'axios'
 //import all things from components✅
 import NasaPhotos from './components/NasaPhotos'
+import styled from 'styled-components';
 
 
-
+const StyledNasa = styled.div`
+  color: #fff;
+  background-color: #778899 ;
+`
 
 function App() {
   const [data, setData] = useState('New useState here 👋')
@@ -24,9 +28,9 @@ function App() {
 
 
   return (
-  <div className='App'>
+  <StyledNasa className='App'>
   {NasaPhotos ({'data':data}) }
-</div>
+</StyledNasa>
 );
 }
 
